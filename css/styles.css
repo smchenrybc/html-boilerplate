@@ -55,9 +55,6 @@ main {
   border: 1px solid light-dark(#AAA, #DDD);;
 }
 
-/*
-Languages
- */
 [lang="ar"],
 [lang="he"] {
   direction: rtl;
