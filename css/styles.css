@@ -12,11 +12,23 @@ body {
   color: light-dark(#333, #EEE);
   font-size: 1.25rem;
   background-color: light-dark(#FFF, #000);
-  color-scheme: dark;
+  color-scheme: light;
 }
 
-p {
+p, ol, ul {
   margin: 0 0 1.3rem;
+}
+
+div.box {
+  margin-bottom: 1.3rem;
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
 }
 
 h1, h2, h3,
@@ -24,12 +36,41 @@ h4, h5, h6 {
   margin-bottom: 1rem;
 }
 
+#page {
+  margin: 2rem 0 3rem;
+}
+
 header {
-  margin: 2rem 0;
   text-align: center;
 }
 
 main {
   margin: 0 auto;
   max-width: 700px;
+}
+
+.box {
+  padding: 1rem 1.25rem;
+  border: 1px solid light-dark(#AAA, #DDD);;
+}
+
+/*
+Languages
+ */
+[lang="ar"],
+[lang="he"] {
+  direction: rtl;
+  text-alight: right;
+}
+
+[lang="he"] {
+  font-family: "Noto Sans Hebrew", sans-serif;
+}
+
+[lang="ja"] {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+[lang="ko"] {
+  font-family: "Noto Sans Korean", sans-serif;
 }
