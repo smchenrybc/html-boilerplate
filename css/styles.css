@@ -10,7 +10,7 @@
 
 body {
   color: light-dark(#333, #EEE);
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-family: 'Noto Sans', sans-serif;
   background-color: light-dark(#FFF, #000);
   color-scheme: light;
@@ -38,6 +38,8 @@ h4, h5, h6 {
 }
 
 #page {
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin: 2rem 0 3rem;
 }
 
