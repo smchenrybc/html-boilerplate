@@ -1,1 +1,1 @@
-console.log($.fn);
+console.log(jQuery.prototype);
