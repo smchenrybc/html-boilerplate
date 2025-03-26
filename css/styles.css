@@ -11,6 +11,7 @@
 body {
   color: light-dark(#333, #EEE);
   font-size: 1.25rem;
+  font-family: 'Noto Sans', sans-serif;
   background-color: light-dark(#FFF, #000);
   color-scheme: light;
 }
@@ -61,16 +62,4 @@ Languages
 [lang="he"] {
   direction: rtl;
   text-alight: right;
-}
-
-[lang="he"] {
-  font-family: "Noto Sans Hebrew", sans-serif;
-}
-
-[lang="ja"] {
-  font-family: "Noto Sans JP", sans-serif;
-}
-
-[lang="ko"] {
-  font-family: "Noto Sans Korean", sans-serif;
 }
